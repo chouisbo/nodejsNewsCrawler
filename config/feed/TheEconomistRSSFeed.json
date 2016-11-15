@@ -1,0 +1,92 @@
+[
+{
+    "siteId": 2,
+    "boardId": 1,
+    "name": "Business and finance",
+    "url": "http://www.economist.com/sections/business-finance/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 2,
+    "name": "Economics",
+    "url": "http://www.economist.com/sections/economics/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 3,
+    "name": "Science and technology",
+    "url": "http://www.economist.com/sections/science-technology/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 4,
+    "name": "Culture",
+    "url": "http://www.economist.com/sections/culture/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 5,
+    "name": "Markets and data",
+    "url": "http://www.economist.com/sections/markets-data/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 6,
+    "name": "United States",
+    "url": "http://www.economist.com/sections/united-states/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 7,
+    "name": "Britain",
+    "url": "http://www.economist.com/sections/britain/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 8,
+    "name": "China",
+    "url": "http://www.economist.com/sections/china/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 9,
+    "name": "The Americas",
+    "url": "http://www.economist.com/sections/americas/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 10,
+    "name": "Middle East and Africa",
+    "url": "http://www.economist.com/sections/middle-east-africa/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 11,
+    "name": "Obituary",
+    "url": "http://www.economist.com/sections/obituary/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 12,
+    "name": "Leaders",
+    "url": "http://www.economist.com/sections/leaders/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 13,
+    "name": "International",
+    "url": "http://www.economist.com/sections/international/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 14,
+    "name": "Europe",
+    "url": "http://www.economist.com/sections/europe/rss.xml"
+},
+{
+    "siteId": 2,
+    "boardId": 15,
+    "name": "Asia",
+    "url": "http://www.economist.com/sections/asia/rss.xml"
+}
+]

@@ -1,0 +1,62 @@
+[
+{
+    "siteId": 1,
+    "boardId": 1,
+    "name": "Top Stories",
+    "url": "http://feeds.bbci.co.uk/news/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 2,
+    "name": "World",
+    "url": "http://feeds.bbci.co.uk/world/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 3,
+    "name": "UK",
+    "url": "http://feeds.bbci.co.uk/news/uk/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 4,
+    "name": "Business",
+    "url": "http://feeds.bbci.co.uk/news/business/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 5,
+    "name": "Politics",
+    "url": "http://feeds.bbci.co.uk/news/politics/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 6,
+    "name": "Health",
+    "url": "http://feeds.bbci.co.uk/news/health/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 7,
+    "name": "Education & Family",
+    "url": "http://feeds.bbci.co.uk/news/education/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 8,
+    "name": "Science & Environment",
+    "url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 9,
+    "name": "Technology",
+    "url": "http://feeds.bbci.co.uk/news/technology/rss.xml"
+},
+{
+    "siteId": 1,
+    "boardId": 10,
+    "name": "Entertainment & Arts",
+    "url": "http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"
+}
+]
