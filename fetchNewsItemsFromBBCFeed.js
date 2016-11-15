@@ -84,7 +84,7 @@ var printFeedHandler = function(siteId, boardId) {
             var post = new Post(siteId, boardId, 
                                 item.title, item.link,
                                 item.pubDate, item.description);
-            console.log(JSON.stringify(post));
+            fs.appendFileSync("data/BBCNewsItems.list", JSON.stringify(post) + "\n");
         }
     }
 }

@@ -1,13 +1,15 @@
 #!/bin/bash
 
-node fetchNewsItemsFromBBCFeed.js > data/BBCNewsItems.list
-node fetchNewsItemsFromTheEconomistFeed.js > data/TheEconomistNewsItems.list
+node fetchNewsItemsFromBBCFeed.js
+node fetchNewsFromBBCList.js
 
-node fetchNewsFromBBCList.js >> data/BBCNews.list
-node fetchNewsFromTheEconomistList.js >> data/TheEconomistNews.list
+node fetchNewsItemsFromTheEconomistFeed.js
+node fetchNewsFromTheEconomistList.js
 
 cat data/BBCNews.list data/TheEconomistNews.list > data/AllNews.list
 node genNormalNews.js > data/AllNormalNews.txt
+
+# scp data/AllNormalNews.txt zhubolong@172.22.0.24:/home/zhubolong/en2chTranslate-deploy/data/text/
 
 exit 0
 

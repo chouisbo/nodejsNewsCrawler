@@ -84,7 +84,7 @@ var printFeedHandler = function(siteId, boardId) {
             var post = new Post(siteId, boardId, 
                                 item.title, item.link,
                                 item.pubDate, item.description);
-            console.log(JSON.stringify(post));
+            fs.appendFileSync("data/TheEconomistNewsItems.list", JSON.stringify(post) + "\n");
         }
     }
 }
@@ -93,3 +93,4 @@ var TheEconomistFeeds = JSON.parse(fs.readFileSync('./config/feed/TheEconomistRS
 TheEconomistFeeds.forEach(function (element) {
     fetch(element.url, 'http://127.0.0.1:8123', printFeedHandler(element.siteId, element.boardId));
 });
+
